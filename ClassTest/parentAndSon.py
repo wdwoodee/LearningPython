@@ -14,7 +14,7 @@ class Person():
         print ("age:%-20d" % self.age)
         print ("sex:%-20s" % self.sex)
 
-class Student():  #继承person类
+class Student(Person):  #继承person类
     def __init__(self,
                  name = None,
                  age = 1,
