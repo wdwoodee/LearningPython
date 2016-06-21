@@ -11,7 +11,7 @@ class MyThread(threading.Thread):
             print(str(i))
         print(self.getName()+" is over")
 def test():
-    for i in range(0, 10):
+    for i in range(0, 3):
         t = MyThread("thread_" + str(i))
         t.start()
 
